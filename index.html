@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+            <h1>Morsomme spørsmål</h1>
+
+            
+            <p>Liker du Fish & Chips?</p>
+            <input type="radio" id="sporsmaal1E" name="fishchips" value=1>
+            <label for="fishchips">Ja, jeg elsker Fish & Chips!!</label> <br>
+            <input type="radio" id="sporsmaal1UE" name="fishchips" value=0>
+            <label for="fishchips">Nei, jeg liker ikke Fish & Chips.</label> <br>
+    
+            <p>Liker du grønne epler?</p>
+            <input type="radio" id="sporsmaal2E" name="grønteple" value=1>
+            <label for="grønteple">Ja, grønne epler er de beste eplene!!</label> <br>
+            <input type="radio" id="sporsmaal2UE" name="grønteple" value=0>
+            <label for="grønteple">Nei. Jeg liker røde epler bedre.</label> <br>
+    
+            <p>Liker du Spicy Thai suppe?</p>
+            <input type="radio" id="sporsmaal3E" name="suppe" value=1>
+            <label for="suppe">Ja, det er min favorittsuppe!!</label> <br>
+            <input type="radio" id="sporsmaal3UE" name="suppe" value=0>
+            <label for="suppe">Nei, den er for sterk for meg.</label> <br>
+    
+            <p>Liker du baguetter?</p>
+            <input type="radio" id="sporsmaal4E" name="baguette" value=1>
+            <label for="baguette">Ja, jeg spiser dem ofte til lunsj!!</label> <br>
+            <input type="radio" id="sporsmaal4UE" name="baguette" value=0>
+            <label for="baguette">Nei, jeg har gluten allergi.</label> <br>
+            <button onclick="results()">Legg inn</button>
+            <button onclick="visChart()">Vis chart</button>
+            
+
+            <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script src="resultat.js"></script>
+</body>
+</html>
